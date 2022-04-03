@@ -1,0 +1,97 @@
+.SEC{    
+    text-align: center;
+    font-size: 15px;
+    
+}
+.ff{
+    font-family: 'Big Shoulders Display', cursive;
+    color:hsl(0, 0%, 95%);
+    text-align: left;
+    margin-left: 20%;
+    
+}
+.ffl{
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: left;
+    margin: 2%;
+    padding: 7%;
+}
+.fflb{
+    position:relative;
+    display: block;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    height: 5em;
+    margin-left: 8%;
+    margin-bottom: 4%;
+    
+}
+#SS{background-color: hsl(31, 77%, 52%);}
+#SV{background-color: hsl(184, 100%, 22%);}
+#LY{background-color: hsl(179, 100%, 13%);}
+#BTN{  
+     
+    border-radius: 20px;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%) ;
+    width: 25%;
+    
+
+    
+}
+#BTN2{
+    border-radius: 20px;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    width: 25%;
+}
+#BTN3{
+    border-radius: 20px;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    width: 25%;
+}
+
+#BTN:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+
+}
+#BTN2:hover{
+    background-color:hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+#BTN3:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+#Container{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    
+    
+ 
+}
+#Container > *{
+    flex:1;
+    
+}
+.DİV{
+    margin-top: 10%;
+    margin-right: 50%;
+    
+}
+
+@media (max-width: 1440px) {
+    #Container{
+        flex-direction: column;
+    }
+    
+}
